@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,6 +8,7 @@
   </head>
   <body>
     <header class="main-header">
+      <img src="https://via.placeholder.com/1200x400" alt="Banner Proyecto Phoenix" class="header-image" />
       <h1>Bienvenidos al Proyecto Phoenix</h1>
       <nav>
         <ul>
@@ -17,25 +18,67 @@
         </ul>
       </nav>
     </header>
+
     <main class="main-content">
       <section class="purpose-section">
         <h2>Nuestro Propósito</h2>
+        <img src="https://via.placeholder.com/600x300" alt="Propósito Proyecto Phoenix" class="section-image" />
         <p>
           El Proyecto Phoenix busca conectar a las personas a través de una red
-          de conocimiento y colaboración.
+          de conocimiento y colaboración. Nuestro objetivo es facilitar la
+          comunicación y el intercambio de ideas entre usuarios de todo el
+          mundo.
         </p>
       </section>
 
       <section class="about-section">
         <h2>Sobre Nosotros</h2>
+        <img src="https://via.placeholder.com/600x300" alt="Sobre Nosotros" class="section-image" />
         <p>
           Somos un equipo comprometido en brindar soluciones innovadoras a
-          problemas complejos.
+          problemas complejos. Nuestro enfoque es desarrollar plataformas
+          tecnológicas que impacten positivamente a la sociedad y promuevan la
+          colaboración.
         </p>
       </section>
+
+      <section class="testimonials-section">
+        <h2>Testimonios</h2>
+        <article class="testimonial">
+          <p>"El Proyecto Phoenix ha cambiado mi manera de colaborar con otros. ¡Es increíble!"</p>
+          <footer> </footer>
+        </article>
+        <article class="testimonial">
+          <p>"Una red de conocimiento como ninguna otra. Recomiendo este proyecto a todos."</p>
+          <footer></footer>
+        </article>
+      </section>
+
+      <section class="contact-section">
+        <h2>Contacto</h2>
+        <form action="#" method="POST" class="contact-form">
+          <fieldset>
+            <legend>Formulario de Contacto</legend>
+
+            <!-- Campo Nombre -->
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required /><br /><br />
+
+            <!-- Campo Correo Electrónico -->
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required /><br /><br />
+
+            <!-- Campo Mensaje -->
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br /><br />
+
+            <button type="submit">Enviar Mensaje</button>
+          </fieldset>
+        </form>
+      </section>
     </main>
+
     <footer class="main-footer">
       <p>© 2024 Proyecto Phoenix. Todos los derechos reservados.</p>
-    </footer>
-  </body>
-</html>
+      <ul class="social-media">
+        <li><a href="#"><img src="https://via.placeholder.com/
